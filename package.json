@@ -4,14 +4,17 @@
   "description": "GraphQL server practice",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "json": "json-server --watch data.json"
   },
   "author": "Sergej Vlasov",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "express": "^4.17.0",
     "express-graphql": "^0.8.0",
     "graphql": "^14.3.0",
+    "json-server": "^0.15.0",
     "nodemon": "^1.19.0"
   }
 }
